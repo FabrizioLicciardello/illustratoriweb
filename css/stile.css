@@ -1,0 +1,92 @@
+body{
+    background-color: #C0BFBF;
+    max-width: 1200px;
+    margin: auto;
+    
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+
+
+header p{
+    text-transform: uppercase;
+    font-family: helvetica;
+    font-weight: bold;
+    font-style: oblique;
+    font-size: 40px;
+    margin-top: 25px;
+    margin-left: auto;
+    
+
+}
+
+
+nav ul {
+    
+    margin-left: 97%;
+    padding: 0;
+    display: block;
+    margin-top: -135px;
+    
+
+    
+}
+
+section h1{
+    font-family: garamond;
+    font-weight: bold;
+    font-size: 100px;
+    color: black;
+    margin-left: auto;
+    
+    
+}
+
+
+
+
+.nome-illustratore{
+    font-family: helvetica;
+    font-weight: bold;
+    font-size: 35px;
+    margin: -25px;
+    text-decoration: none;
+   color: black;
+   
+}
+
+main div.card {
+    background: #fff;
+    max-width: 100%;
+    
+}
+.grid {
+    margin-left: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 25px;
+    
+}
+
+
+
+
+    main div.card img {
+      margin-left: auto;
+        object-fit: cover;
+        height: 350px;
+        width: 100%;
+    }
+
+  
+    footer p{
+        font-family:  Helvetica;
+        text-align: center;
+        display: grid;
+        padding: 25px;
+        
+    }

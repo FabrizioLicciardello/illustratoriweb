@@ -1,0 +1,83 @@
+body{
+    background-color: #C0BFBF;
+    max-width: 1200px;
+    margin: auto
+}
+
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+
+header p{
+    text-transform: uppercase;
+    font-family: helvetica;
+    font-weight: bold;
+    font-style: oblique;
+    font-size: 40px;
+    margin-top: 25px;
+    margin-left: auto;
+    
+
+}
+
+nav ul {
+    
+    margin-left: 97%;
+    padding: 0;
+    display: block;
+    margin-top: -135px;
+    
+
+    
+}
+
+h2{
+    font-size: 100px;
+    font-family: garamond;
+    font-weight: bold;
+    margin-left: auto;
+}
+
+
+.testo-boca{
+    font-size: 40px;
+    font-family: garamond;
+    text-align: left;
+    margin-left: auto;
+    
+}
+
+.grid {
+    margin-top: 100px;
+    margin-left: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 25px;
+    
+    
+}
+
+
+main div.immagine img {
+    margin-left: auto;
+      object-fit: cover;
+      height: 100%;
+      width: 100%;
+      
+      
+  }
+
+
+
+
+
+footer p{
+    font-family:  Helvetica;
+    text-align: center;
+    display: grid;
+    padding: 25px;
+    
+}
